@@ -1,10 +1,10 @@
-var video;
+let videoElement;
 
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
 
 	// Find the video element by its ID or any other suitable method.
-	const videoElement = document.getElementById('player1');
+	videoElement = document.getElementById('player1');
 	// // Turn off autoplay
 	videoElement.autoplay = false;
 	// // Turn off looping
